@@ -1,4 +1,17 @@
-# code your #valid_move? method here
+def display_board(board)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+end
 
+def input_to_index(user_input)
+  index = user_input.to_i
+  index -= 1
+  return index
+end
 
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+def valid_move?(board,index)
+  def display_board(array,ind)
+    
