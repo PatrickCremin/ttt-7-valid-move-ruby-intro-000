@@ -13,5 +13,5 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board,index)
-  def display_board(array,ind)
+  def position_taken(array,ind)
     
